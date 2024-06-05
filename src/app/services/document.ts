@@ -31,12 +31,12 @@ interface ISelectValues {
   label: string
 }
 
-interface IFormValues {
+export interface IFormValues {
   field_seq: number,
-  is_mandatory: number,
+  is_mandatory: boolean,
   field_type: number,
   field_name: string,
-  select_values: ISelectValues[]
+  select_values: string
 }
 
 // post

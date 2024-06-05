@@ -8,8 +8,8 @@ const Router = () => {
     <Routes>
       <Route element={<MainLayout />}>
         <Route path={main_routes.documents} element={<Documents />} />
-        <Route path={main_routes.documentsShow} element={<DocumentsShow />} />
-        <Route path={main_routes.documentsCreate} element={<DocumentsCreate />} />
+        <Route path={main_routes.documentShow} element={<DocumentsShow />} />
+        <Route path={main_routes.documentCreate} element={<DocumentsCreate />} />
       </Route>
 
     </Routes>
